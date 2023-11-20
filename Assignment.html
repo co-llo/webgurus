@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Bar</title>
+  <style>
+    body {
+      margin: 0;
+      background-color:#4BACC6;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      padding: 10px;
+    }
+
+    #logo {
+      float: left;
+      margin-right: 10px;
+    }
+
+     nav ul li {
+      color: blue;
+      padding: 5px;
+      display: inline-block;
+       border:5px;
+       border:2px solid #063970;
+       border-radius:10px;
+       background-color:#f5f5f5;
+       color:red;
+    }
+   hr{
+     height:2px;
+     background-color:white;
+   }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div id="logo">
+      <img src="logo.png"alt="Logo" width="50">
+    </div>
+    <nav>
+      <ul>
+      <li onclick="alert('welcome home')">Home</li>
+      <li>Gallery</li>
+      <li>Products</li>
+      <li>Services</li>
+      </ul>
+    </nav>
+  </header>
+  <hr>
+</body>
+</html>
